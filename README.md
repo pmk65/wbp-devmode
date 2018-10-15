@@ -27,11 +27,12 @@ When installed/enabled, any plugin scripts saved in the "\AppData\Roaming\Blumen
 
 - Now comes with an extra script to help creating plugin GUI.
 This script can convert Pascal VCL defs created with pdScript IDE into WeBuilder FastScript plugin format.
-To create the GUI code, you'll need the free [pdScript](http://www.be-precision.com/products/pdscript/) IDE program. An "Integrated Development Environment for writting the code and designing the forms (GUI) in a Pascal Script language."
+To create the GUI code, you'll need the free [pdScript IDE](http://www.be-precision.com/products/pdscript/) program. An "Integrated Development Environment for writting the code and designing the forms (GUI) in a Pascal Script language."
 
 **Workflow for converting Pascal VCL defs created with pdScript IDE into WeBuilder FastScript:**
 1) First you create/setup your GUI using pdScript IDE. Then you Right-Click on your GUI and select "View as text"
 2) Now copy text (VCL) and paste it into WeBuilder. Then select the WeBuilder plugin "Devmode/PAS2WJS" menu option. It will then transform the code into FastScript plugin code format.
+
 NOTE: The conversion is not 100%, and the code produced usually need some manual adjustments.
 
 
